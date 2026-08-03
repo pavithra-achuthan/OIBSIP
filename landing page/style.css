@@ -1,0 +1,181 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0d1117;
+  color: #e6edf3;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #161b22;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3b82f6;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #e6edf3;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #3b82f6;
+}
+
+/* Hero */
+.hero {
+  margin-top: 50px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #3b82f6;
+}
+
+.hero p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #3b82f6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #2563eb;
+}
+
+/* Categories */
+.categories {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.categories h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #3b82f6;
+}
+
+.category-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.category-card {
+  background: #161b22;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+}
+
+.category-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.category-card h3 {
+  margin: 15px 0 10px;
+  color: #3b82f6;
+}
+
+.price {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+/* About */
+.about {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #3b82f6;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #c9d1d9;
+}
+
+/* Contact */
+.contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #3b82f6;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+  color: #c9d1d9;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
